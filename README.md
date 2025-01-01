@@ -1,5 +1,3 @@
-Proje Bilgilendirme Dokümanı
-
 DEATH NOTE Dizisinin Sosyal Ağ Analizi
 Bu proje, Death Note anime serisindeki karakterler arasındaki sosyal ilişkilerin analizini yapmak amacıyla geliştirilmiştir. Çizge tabanlı bir ağ modeli oluşturularak, karakterlerin rolü ve etkisi merkeziyet ölçümleri, derecelendirme analizleri ve topluluk tespiti gibi yöntemlerle incelenmiştir. Bu analiz, sosyal etkileşimlerin derinlemesine anlaşılmasını sağlamaktadır.
 
@@ -7,8 +5,6 @@ Kullanılan Verinin Açıklaması
 Death Note un veri seti olmadığı için veri setini kendimiz oluşturduk.
 
 Death Note Fan ve Wiki sayfalarından bildiğimiz sosyal ilişkilerden emin olarak oluşturduk.
-
-
 
 Oluşturulan Çizgenin Açıklaması
 Karakterler: Light, L, Misa, Near, Mello, vb.
@@ -56,12 +52,12 @@ Topluluk Yapısının Ortaya Çıkarılması
 Louvain Algoritması ile ağda yoğun bağlantılı 3 büyük topluluk ortaya çıkmıştır. Bu topluluklar polis teşkilatı, L ve ekibi ve Light ın çevresi olarak çok güzel bir şekilde bölünmüştür.
  
 Sonuçların Değerlendirilmesi
-Yaptığımız ölçümler sonucunda, ağın belirli özelliklerini ve yapısal düzenini daha net bir şekilde gözlemledik. Öncelikle, ağımız Death Note evrenindeki karakterlerin ilişkilerini modelleyen bir yapı olduğu için gerçek dünya ağı sayılmaz, ancak sosyal ağ analizinde kullanılan yöntemlerle incelendiği için gerçek dünyadaki sosyal ağlara benzer özellikler taşıyor.
+Yaptığım ölçümler sonucunda, ağın belirli özelliklerini ve yapısal düzenini daha net bir şekilde gözlemledik. Öncelikle, ağımız Death Note evrenindeki karakterlerin ilişkilerini modelleyen bir yapı olduğu için gerçek dünya ağı sayılmaz, ancak sosyal ağ analizinde kullanılan yöntemlerle incelendiği için gerçek dünyadaki sosyal ağlara benzer özellikler taşıyor.
 Ağın küçük dünya olup olmadığını değerlendirdiğimizde, ortalama yol uzunluğunun 2.03 ve kümeleme katsayısının 0.617 olması, ağın küçük dünya özellikleri gösterdiğini ortaya koyuyor. Düğümler arasındaki kısa mesafeler ve yoğun yerel bağlantılar, bilgilerin veya etkileşimlerin ağ içinde hızlı bir şekilde yayılabileceğini gösteriyor.
 Derece dağılımına baktığımızda, ağın tamamen güç kuralına uymadığını gördük. Bu kural genellikle bazı düğümlerin çok fazla, çoğu düğümün ise çok az bağlantıya sahip olduğu ölçeklenebilir ağlarda görülür. Burada ise derece dağılımı daha dengeli ve homojen bir yapı sergiliyor. Bu durum, düğümler arasındaki ilişkilerin nispeten eşit dağıldığını ve belirli düğümlerin aşırı baskın olmadığını gösteriyor.
-Başlangıçta ağın tamamen güç kuralına uyacağını düşünüyorduk L ve Light hariç diğer karakterlerin daha düşük kalacağını sanıyorduk ama polis teşkilatının kendi arasındaki bağlar durumu değiştirdi ve nerdeyse bu networkünün yarısının güçlü olduğunu göseriyor. Aynı zamanda Light ve L in en çok birbirine benzer diye düşnürken Light ın L in öğrencileriyle daha çok benzerlik oranı göstermesi bizi şaşırttı. Geri kala şeyler ise beklediğimiz gibiydi.
+Başlangıçta ağın tamamen güç kuralına uyacağını düşünüyordum L ve Light hariç diğer karakterlerin daha düşük kalacağını sanıyordum ama polis teşkilatının kendi arasındaki bağlar durumu değiştirdi ve nerdeyse bu networkünün yarısının güçlü olduğunu göseriyor. Aynı zamanda Light ve L in en çok birbirine benzer diye düşnürken Light ın L in öğrencileriyle daha çok benzerlik oranı göstermesi beni şaşırttı. Geri kala şeyler ise beklediğimiz gibiydi.
 
 Sonuç
-Projemizin konusu, Death Note evrenindeki karakterler arasındaki ilişkilerin sosyal ağ analizi yöntemleriyle incelenmesidir. Bu amaçla, düğümler olarak karakterleri ve kenarlar olarak düşmanlık, dostluk, mentor-öğrenci gibi ilişkileri kullanarak yönsüz, homojen ve statik bir ağ oluşturduk.
+Proje de Death Note evrenindeki karakterler arasındaki ilişkilerin sosyal ağ analizi yöntemleriyle incelenmesidir. Bu amaçla, düğümler olarak karakterleri ve kenarlar olarak düşmanlık, dostluk, mentor-öğrenci gibi ilişkileri kullanarak yönsüz, homojen ve statik bir ağ oluşturdum.
 Ölçümler sonucunda önemli bulgular elde ettik. Light, derece, yakınlık ve arasındalık merkeziyetinde en yüksek değerlere sahip düğüm olarak ağın merkezi ve en etkili karakteri olarak belirlendi. Ortalama yol uzunluğunun 2.03 olması, ağın küçük dünya özellikleri taşıdığını; kümeleme katsayısının 0.617 olması ise ağda güçlü topluluk yapılarına işaret etti. Ancak derece dağılımı, güç kuralına tam olarak uymayarak daha homojen bir yapı sergiledi.
-Bu çalışmayı yaparken, hazır bir veri seti bulamadığımız için veriyi kendimiz oluşturmak zorunda kaldık. Bu durum, projemizi daha fazla emek gerektiren bir hale getirse de, oluşturduğumuz veri seti sayesinde gelecekte benzer ağ analizleri yapmak isteyenler için bir temel oluşturmuş olduk. Bu yönüyle çalışmamız, eksiklikten çok alana bir katkı sağlayarak, ağ analizinde kullanılabilecek özgün bir veri sunmaktadır. Gelecekte, bu veriler üzerine farklı analiz yöntemleri uygulanarak çalışmalar daha da geliştirilebilir.
+Bu çalışmayı yaparken, hazır bir veri seti bulamadığımız için veriyi kendimiz oluşturmak zorunda kaldım. Bu durum, projemizi daha fazla emek gerektiren bir hale getirse de, oluşturduğumuz veri seti sayesinde gelecekte benzer ağ analizleri yapmak isteyenler için bir temel oluşturmuş olduk. Bu yönüyle çalışmam, eksiklikten çok alana bir katkı sağlayarak, ağ analizinde kullanılabilecek özgün bir veri sunmaktadır. Gelecekte, bu veriler üzerine farklı analiz yöntemleri uygulanarak çalışmalar daha da geliştirilebilir.
