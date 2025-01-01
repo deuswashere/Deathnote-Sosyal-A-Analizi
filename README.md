@@ -1,4 +1,5 @@
 DEATH NOTE Dizisinin Sosyal Ağ Analizi
+
 Bu proje, Death Note anime serisindeki karakterler arasındaki sosyal ilişkilerin analizini yapmak amacıyla geliştirilmiştir. Çizge tabanlı bir ağ modeli oluşturularak, karakterlerin rolü ve etkisi merkeziyet ölçümleri, derecelendirme analizleri ve topluluk tespiti gibi yöntemlerle incelenmiştir. Bu analiz, sosyal etkileşimlerin derinlemesine anlaşılmasını sağlamaktadır.
 
 Kullanılan Verinin Açıklaması
